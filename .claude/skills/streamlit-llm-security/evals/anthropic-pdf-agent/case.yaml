@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: anthropic-pdf-agent
+expected_outcome: |
+  ローカル前提でも、PDF 経由のプロンプトインジェクションから run_python(exec) でコード実行される経路を高として指摘し、fetch_url と save_file の無制限な権限、ループ上限なしを指摘する。
+context:
+  scaffold_script: place-files.sh

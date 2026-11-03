@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audits-current-app
+expected_outcome: |
+  ローカル前提を明記した診断レポートで、server.address 未設定を指摘し、認証なしを高・中にせず、キーを伏せ、コードを変更しない。
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: openai-chatbot-public
+expected_outcome: |
+  公開前提で、secrets.toml の git 未除外、cache_resource による他ユーザーの質問の表示、システムプロンプト内の秘密、unsafe_allow_html、認証・上限なしによる費用リスクを指摘する。
+context:
+  scaffold_script: place-files.sh

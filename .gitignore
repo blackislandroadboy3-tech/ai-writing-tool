@@ -1,0 +1,10 @@
+.env
+history.json
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Claude Code のローカル設定とスキル評価の作業フォルダ
+.claude/settings.local.json
+.claude/skills/*-workspace/
